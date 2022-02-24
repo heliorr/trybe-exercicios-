@@ -1,0 +1,36 @@
+<style>
+        body {
+            font-size: 16px;
+        }
+        p, li {
+            font-size: 48px;
+            background-color: aquamarine;
+        }
+        h1 { 
+            width: 65px;
+            color: orange;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+        ul {
+        background-color: brown;
+        }
+        .yellow {
+            background-color: yellow;
+            font-style: italic;
+            text-align: right;
+        }
+        .red {
+            background-color: red;
+            line-height: 50px;
+            font-style: oblique;
+            font-weight: bold;
+            text-align: center;
+        }
+        .brown {
+            background-color: brown;
+            text-decoration: blue;
+            font-style: oblique;
+            font-weight: lighter;
+        }
+    </style>
