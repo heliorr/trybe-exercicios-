@@ -47,3 +47,5 @@ const testingScope = (escopo) => {
   }
 
   console.log(separarFrase('Antônio foi no banheiro e não sabemos o que aconteceu'));
+
+  
