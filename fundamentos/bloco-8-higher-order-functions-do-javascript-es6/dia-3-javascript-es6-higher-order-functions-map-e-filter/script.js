@@ -206,10 +206,10 @@ const expectedResult5 = [
   ];
   
   function fantasyOrScienceFictionAuthors() {
-    const authorSort = books.filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia');
-    const newArray = authorSort.map((livro) => livro.author.name);
-    newArray.sort();
-    return newArray;
+    const bookGenre = books.filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia');
+    const authorSort = bookGenre.map((livro) => livro.author.name);
+    authorSort.sort();
+    return authorSort;
 }
 
 console.log(fantasyOrScienceFictionAuthors());
